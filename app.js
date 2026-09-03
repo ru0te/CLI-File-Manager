@@ -133,9 +133,7 @@ function main() {
       const userInput = prompt(chalk.bold.cyan('> '));
 
       if (userInput === null) {
-        console.log(
-          chalk.bold.green('\nExiting CLI FILE MANAGER. Have a great day!'),
-        );
+        console.log(chalk.bold.green('\nExiting CLI FILE MANAGER.'));
         break;
       }
 
