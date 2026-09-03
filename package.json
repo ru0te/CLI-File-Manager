@@ -1,6 +1,13 @@
 {
-  "dependencies": {
-    "prompt-sync": "^4.2.0"
+  "name": "my-cli-file-manager",
+  "version": "1.0.0",
+  "description": "An interactive CLI file manager",
+  "type": "module",
+  "bin": {
+    "filemgr": "./app.js"
   },
-  "type": "module"
+  "dependencies": {
+    "chalk": "^6.0.0",
+    "prompt-sync": "^4.2.0"
+  }
 }
